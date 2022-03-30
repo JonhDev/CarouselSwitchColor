@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_title"
+        style="@style/TextAppearance.Material3.LabelLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Soy un titulo"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Accion"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
